@@ -76,7 +76,7 @@ print(clf.best_estimator_)
 accuracy = clf.score(data_test, labels_test)
 print("Accuracy of RandomForrestClasiffier:",accuracy)
 
-#K nearest neibourhods
+#K nearest neighbours
 from sklearn.neighbors import KNeighborsClassifier
 
 print("Fitting the classifier...")
