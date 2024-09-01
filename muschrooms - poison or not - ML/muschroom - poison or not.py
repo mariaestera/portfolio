@@ -2,12 +2,6 @@ import pandas as pd
 
 #import data and extract labels
 
-'''
-all_data = pd.read_csv("C:\\Users\\piecz\\Desktop\\do usunięcia -duże pliki\\mushrooms\\train_small.csv", index_col=0,nrows=12000)
-print(all_data['gill-color'].unique())
-all_data.to_csv("train.csv")
-'''
-
 all_data = pd.read_csv("train.csv",index_col=0)
 print('Data imported')
 print(all_data.columns)
