@@ -8,7 +8,7 @@ plt.ion()
 
 from functions import show_frame, visualize_barplot, visualize_scatter
 
-data = pd.read_csv("C:\\Users\\piecz\\Desktop\\do usunięcia -duże pliki\\cars predictions\\train.csv",index_col=0)
+data = pd.read_csv("data.csv",index_col=0)
 print(data.head())
 
 #from engine we can extract information about HorsePower, number of cylinders and volume of engine
